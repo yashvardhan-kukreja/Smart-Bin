@@ -1,3 +1,3 @@
 # Smart-Bin
-<b>Rajasthan Hack 3.0</b>
+<h5><b>Rajasthan Hack 3.0</b></h5></br>
 This app links with a smart bin. The smart bin in the city will send the data to the cloud based sever regarding its current GPS location and quantity of waste in it. This data will be fetched by the app  and the app will use this data to display the most suitable route for collecting garbage by the garbage truck drivers. This app also includes a location guidance system. So, if a user, standing near a smart bin ask directions to a nearby place by speaking to the microphone of the app, then, the speaker connected with the smart bin can speak out the directions for that location.
