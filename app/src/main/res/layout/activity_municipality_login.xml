@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MunicipalityLogin">
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="Municipality Login" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="250dp"
+
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <EditText
+
+            android:textColor="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter the municipality ID"
+            android:id="@+id/munLogInEmail"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="250dp"
+
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter the password"
+
+            android:textColor="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/munLogInPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="#FF4081"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/munLogIn"/>
+
+</LinearLayout>

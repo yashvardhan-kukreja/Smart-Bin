@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_marginTop="100dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:textSize="30sp"
+    android:layout_gravity="center_horizontal"
+    android:text="Welcome to Smart Bin "/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="driver"
+      android:textColor="#ffffff"
+      android:background="#FF4081"
+      android:layout_marginTop="70dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginBottom="30dp"
+      android:id="@+id/driver"/>
+
+    <Button
+        android:background="#FF4081"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="user"
+        android:id="@+id/user"/>
+
+
+  <Button
+      android:layout_marginTop="30dp"
+      android:layout_width="wrap_content"
+      android:textColor="#ffffff"
+      android:background="#FF4081"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="Municipality"
+      android:padding="10dp"
+      android:id="@+id/municipality"/>
+
+</LinearLayout>

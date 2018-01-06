@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".DriverStartActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:layout_marginTop="100dp"
+    android:textColor="#ffffff"
+    android:text="Driver Login" />
+<android.support.design.widget.TextInputLayout
+    android:layout_width="250dp"
+    android:layout_marginTop="30dp"
+    android:textColor="#ffffff"
+    android:backgroundTint="#ffffff"
+    android:textColorHint="#ffffff"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:hint="Enter your E-mail ID"
+        android:id="@+id/driverLogInEmail"/>
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter the password"
+            android:textColor="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="textPassword"
+            android:id="@+id/driverLogInPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="#FF4081"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/driverLogIn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="#FF4081"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/driverSignUp"/>
+
+</LinearLayout>
